@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شرکت من | صفحه اصلی</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- هدر -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <h1 class="logo">شرکت من</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">خانه</a></li>
+          <li><a href="about.html">درباره</a></li>
+          <li><a href="services.html">خدمات</a></li>
+          <li><a href="portfolio.html">نمونه کارها</a></li>
+          <li><a href="contact.html">تماس</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- هرو -->
+  <section class="hero">
+    <div class="container">
+      <h2>به وب‌سایت ما خوش آمدید</h2>
+      <p>اینجا جایی است برای معرفی شما یا شرکتتان با یک قالب مدرن و تم سفید و آبی.</p>
+      <a href="about.html" class="btn">بیشتر بدانید</a>
+    </div>
+  </section>
+
+  <!-- پنل خدمات -->
+  <section class="services-panel">
+    <div class="container">
+      <h3>خدمات ما</h3>
+      <div class="grid-3">
+        <div class="card">
+          <h4>طراحی وب</h4>
+          <p>ساخت وبسایت‌های واکنش‌گرا و زیبا.</p>
+        </div>
+        <div class="card">
+          <h4>برندینگ</h4>
+          <p>کمک به ساخت هویت برند شما.</p>
+        </div>
+        <div class="card">
+          <h4>پشتیبانی</h4>
+          <p>پشتیبانی همیشگی از پروژه‌های شما.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- فوتر -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> شرکت من - همه حقوق محفوظ است.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
