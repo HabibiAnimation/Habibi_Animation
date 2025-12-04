@@ -15,10 +15,28 @@
         }
 
         header {
-            background-color: #0b1c3d; /* سرمه‌ای */
+            background-color: #0b1c3d;
             color: white;
             padding: 20px 10px;
             text-align: center;
+            position: relative;
+        }
+
+        .home-button {
+            position: absolute;
+            left: 15px;
+            top: 15px;
+            padding: 6px 14px;
+            background-color: white;
+            color: #0b1c3d;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+        .home-button:hover {
+            background-color: #e6e6e6;
         }
 
         main {
@@ -66,27 +84,12 @@
         ul {
             padding-right: 20px;
         }
-
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #0b1c3d;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-            font-weight: bold;
-            transition: background-color 0.3s;
-            margin-top: 10px;
-        }
-
-        .button:hover {
-            background-color: #142b5c;
-        }
     </style>
 </head>
 <body>
 
     <header>
+        <a href="http://ahmadrezahabibi.wuaze.com/" class="home-button">Home</a>
         <h1>🏠 به سایت رسمی Pounak Animation خوش آمدید</h1>
         <p>به زودی سایت راه‌اندازی خواهد شد.</p>
     </header>
@@ -127,12 +130,6 @@
             <p>📧 <a href="mailto:ahmadrezahabibi2021@gmail.com">ahmadrezahabibi2021@gmail.com</a></p>
             <p>📍 Mashhad, Iran</p>
             <p>📱 09363050832</p>
-
-            <p>
-                <a href="http://ahmadrezahabibi.wuaze.com/" class="button">
-                    برگشت به صفحه اصلی
-                </a>
-            </p>
         </section>
 
     </main>
